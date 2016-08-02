@@ -3,7 +3,7 @@ $aside-min-width: 200px;
 $aside-height: 100vh;
 
 .aside {
-  width: $aside-width;
-  min-width: $aside-min-width;
   height: $aside-height;
+  min-width: $aside-min-width;
+  width: $aside-width;
 }

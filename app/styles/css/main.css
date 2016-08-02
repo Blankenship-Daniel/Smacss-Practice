@@ -28,11 +28,8 @@
  *  a { color: #039; }
  *  a:hover { color: #03C; }
  *****************************************************************************/
-* {
-  box-sizing: border-box;
-  font-family: "Slabo 27px", serif; }
-
 body {
+  font-family: "Slabo 27px", serif;
   margin: 0; }
 
 /******************************************************************************
@@ -54,17 +51,17 @@ body {
  *  callouts, the sidebar sections, the products lists and so on.
  *****************************************************************************/
 .nav {
-  height: 80px;
-  background: #263238; }
+  background: #263238;
+  height: 80px; }
 
 .aside {
-  width: 20%;
+  height: 100vh;
   min-width: 200px;
-  height: 100vh; }
+  width: 20%; }
 
 .main {
-  padding: 1.5em;
-  margin-left: 20%; }
+  margin-left: 20%;
+  padding: 1.5em; }
 
 /******************************************************************************
  * State
