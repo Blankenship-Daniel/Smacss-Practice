@@ -53,16 +53,16 @@ body {
  * Modules are the reusable, modular parts of our design. They are the
  *  callouts, the sidebar sections, the products lists and so on.
  *****************************************************************************/
-#nav {
+.nav {
   height: 80px;
   background: #263238; }
 
-#aside {
+.aside {
   width: 20%;
   min-width: 200px;
   height: 100vh; }
 
-#main {
+.main {
   padding: 1.5em;
   margin-left: 20%; }
 
@@ -75,6 +75,12 @@ body {
  *  smaller or bigger. They are also about describing how a module might look
  *  in different views like the home page or the inside page.
  *****************************************************************************/
+.hidden {
+  display: none; }
+
+.visible {
+  display: block; }
+
 /******************************************************************************
  * Theme
  *
