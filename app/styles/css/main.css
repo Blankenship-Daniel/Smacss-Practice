@@ -37,11 +37,13 @@ body {
  *
  * Layout rules divide the page into sections. Layouts hold one or more
  *  modules together.
+ *
+ * These rules are prefixed with lyt- for clarity.
  *****************************************************************************/
-.left {
+.lyt-left {
   float: left; }
 
-.right {
+.lyt-right {
   float: right; }
 
 /******************************************************************************
@@ -71,11 +73,13 @@ body {
  *  They are about describing how a module or layout looks on screens that are
  *  smaller or bigger. They are also about describing how a module might look
  *  in different views like the home page or the inside page.
+ *
+ * These classes are prefixed with st- for clarity.
  *****************************************************************************/
-.hidden {
+.st-hidden {
   display: none; }
 
-.visible {
+.st-visible {
   display: block; }
 
 /******************************************************************************
@@ -84,6 +88,8 @@ body {
  * Theme rules are similar to state rules in that they describe how modules or
  *  layouts might look. Most sites don't require a layer of theming but it is
  *  good to be aware of it.
+ *
+ * These rules are prefixed with thm- for clarify
  *****************************************************************************/
-.grey {
+.thm-grey {
   background: #d0d0d0; }
